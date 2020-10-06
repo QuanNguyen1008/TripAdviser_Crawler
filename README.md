@@ -1,5 +1,6 @@
 # TripAdvisor_Crawler
 Using scrapy to scrape tripadvisor in order to get users' reviews and retaurant information.
+for crawling restaurant information, it need to use selenium to select some button. in this project, we install driver for Edge (Version 85.0.564.68), If you want to use this dirver, please check your edge version.
 it use python 2.
 
 # Usage

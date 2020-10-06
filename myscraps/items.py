@@ -8,9 +8,21 @@
 
 import scrapy
 
+class RestaurantInfor(scrapy.Item):
+    restautant_id = scrapy.Field()
+    name = scrapy.Field()
+    address = scrapy.Field()
+    phoneNum = scrapy.Field()
+    decription = scrapy.Field()
+    detail = scrapy.Field()
+    url = scrapy.Field()
 
 class ReviewItem(scrapy.Item):
     # Items to get
-    rating = scrapy.Field()
+    restautant_id = scrapy.Field()
+    header = scrapy.Field()
     review = scrapy.Field()
+    rating = scrapy.Field()
+    review_Count = scrapy.Field()
+    help_count = scrapy.Field()
 
